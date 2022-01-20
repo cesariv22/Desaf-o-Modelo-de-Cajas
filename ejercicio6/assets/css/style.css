@@ -5,17 +5,16 @@
   box-sizing: border-box;
 }
 
-.main {
-  background-color: #B0CCAB;
-  font-size: 27px;
-  padding: 100px;
-}
-
-.main__paragraph {
-  left: 40px;
+.pw-card {
   position: relative;
-  left: 60px;
-  top: 30px;
+}
+.pw-card__image {
+  position: absolute;
+}
+.pw-card__image--ribbon {
+  position: absolute;
+  left: 270px;
+  top: 280px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,17 +5,30 @@
   box-sizing: border-box;
 }
 
-.main {
-  background-color: #B0CCAB;
-  font-size: 27px;
-  padding: 100px;
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu__li1 {
+  background: olive;
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+}
+.menu__a1 {
+  color: #FFF;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu__a1:hover {
+  background: #000;
 }
 
-.main__paragraph {
-  left: 40px;
-  position: relative;
-  left: 60px;
-  top: 30px;
+.paragraph {
+  margin-top: 20px;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,17 +5,12 @@
   box-sizing: border-box;
 }
 
-.main {
-  background-color: #B0CCAB;
-  font-size: 27px;
-  padding: 100px;
-}
-
-.main__paragraph {
-  left: 40px;
+.ribbon {
   position: relative;
-  left: 60px;
-  top: 30px;
+}
+.ribbon__site {
+  position: absolute;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

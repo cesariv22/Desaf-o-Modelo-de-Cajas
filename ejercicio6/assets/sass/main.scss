@@ -2,17 +2,16 @@
 @import "import/reset";
 @import "import/variables";
 
-
-.main {
-    background-color: $bgc-light-green;
-    font-size: 27px;
-    padding: 100px;
-}
-
-.main__paragraph {
-    left: 40px;
+.pw-card {
     position: relative;
-    left: 60px;
-    top: 30px;
 
+    &__image {
+        position: absolute;
+    }
+
+    &__image--ribbon {
+        position: absolute;
+        left: 270px;
+        top: 280px;
+    }
 }
