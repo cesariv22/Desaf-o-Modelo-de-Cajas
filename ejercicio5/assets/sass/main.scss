@@ -1,0 +1,11 @@
+@import "import/mixins";
+@import "import/reset";
+@import "import/variables";
+
+.vr-card {
+    position: relative;
+
+    &__image {
+        position: absolute;
+    }
+}

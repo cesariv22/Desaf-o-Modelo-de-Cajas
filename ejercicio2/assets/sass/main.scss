@@ -1,0 +1,30 @@
+@import "import/mixins";
+@import "import/reset";
+@import "import/variables";
+
+.square {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.square__red {
+    background-color: $color-red;
+    position: relative;
+    z-index: 3;
+}
+
+.square__green {
+    background-color: $color-green;
+    left: 25px;
+    position: absolute;
+    top: 25px;
+    z-index: 2;
+}
+
+.square__blue {
+    background-color: $color-blue;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+}

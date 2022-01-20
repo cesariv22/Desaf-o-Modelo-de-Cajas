@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #B0CCAB;
+  font-size: 27px;
+  padding: 100px;
+}
+
+.main__paragraph {
+  left: 40px;
+  position: relative;
+  left: 60px;
+  top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

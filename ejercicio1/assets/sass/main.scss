@@ -1,0 +1,45 @@
+@import "import/reset";
+@import "import/mixins";
+@import "import/variables";
+
+.main {
+    margin: 5px;
+}
+
+.box {
+    border: $border-uno;
+    width: $caja-cuatro;
+    padding: 5px;
+    display: inline-block;
+    height: 100px;
+}
+
+.logo-box {
+    width: 100%;
+}
+
+.box2 {
+    width: $caja-cuatro;
+    padding: 5px;
+    display:inline-block;
+    @media screen and (max-width: 425px) {
+        display: block;
+        width: 100%;
+    }
+}
+
+.paragraph1 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+@include movil-view {
+   .box2 {
+      display: block;
+   }
+}
+
+.navbar {
+    background-color: $color-greee;
+    position: fixed;
+}

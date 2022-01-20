@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 5px;
+}
+
+.box {
+  border: 2px solid #808080;
+  width: calc(25% - 4px);
+  padding: 5px;
+  display: inline-block;
+  height: 100px;
+}
+
+.logo-box {
+  width: 100%;
+}
+
+.box2 {
+  width: calc(25% - 4px);
+  padding: 5px;
+  display: inline-block;
+}
+@media screen and (max-width: 425px) {
+  .box2 {
+    display: block;
+    width: 100%;
+  }
+}
+
+.paragraph1 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+@media (max-widht: 425px) {
+  .box2 {
+    display: block;
+  }
+}
+.navbar {
+  background-color: green;
+  position: fixed;
+}
+
+/*# sourceMappingURL=style.css.map */
